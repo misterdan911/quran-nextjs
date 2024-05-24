@@ -1,14 +1,13 @@
 'use client';
 
-import { BottomNavigation, BottomNavigationAction, Button, Paper } from "@mui/material";
+import { BottomNavigation, BottomNavigationAction, Paper } from "@mui/material";
 
 import RestoreIcon from '@mui/icons-material/Restore';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ArchiveIcon from '@mui/icons-material/Archive';
 
-import Image from "next/image";
 import { useState } from "react";
-import HomePage from "./homepage/Page";
+import HomePage from "./homepage/page";
 
 export default function Home() {
   const [value, setValue] = useState(0);
