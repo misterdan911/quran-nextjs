@@ -1,0 +1,8 @@
+@font-face {
+    font-family: ArabQuranIslamic140;
+    src: url(../../fonts/ArabQuranIslamic140-K7n4W.ttf);
+}
+
+.ArabQuranIslamic140 {
+    font-family: ArabQuranIslamic140
+}
